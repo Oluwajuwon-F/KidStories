@@ -1,7 +1,6 @@
 package com.project.android_kidstories.fragments;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,17 +15,10 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.project.android_kidstories.Api.Api;
-import com.project.android_kidstories.Api.Responses.Category.CategoriesAllResponse;
 import com.project.android_kidstories.Api.Responses.story.StoryAllResponse;
 import com.project.android_kidstories.Api.RetrofitClient;
-import com.project.android_kidstories.OnBackPressed;
 import com.project.android_kidstories.R;
-import com.project.android_kidstories.SingleStoryActivity;
-import com.project.android_kidstories.adapters.RecyclerCategoryAdapter;
 import com.project.android_kidstories.adapters.RecyclerStoriesAdapter;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.ButterKnife;
 import retrofit2.Call;
